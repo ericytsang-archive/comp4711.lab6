@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order id='8' type='eatin'>
+    <customer>Misaka Mikoto</customer>
+    <note>onehundredpercenttsundere</note>
+    <burger>
+        <cheese type="cheddar"/>
+        <patty type="beef"/>
+        <cheese type="cheddar"/>
+        <topping type="pickle"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+        <sauce type="ketchup"/>
+        <sauce type="mustard"/>
+        <name>Super Beef Burger</name>
+    </burger>
+    <burger>
+        <patty type="pork"/>
+        <cheese type="cheddar"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+        <sauce type="ketchup"/>
+        <sauce type="mustard"/>
+        <name>Fantastic Pork Burger</name>
+    </burger>
+    <burger>
+        <patty type="chicken"/>
+        <cheese type="mozzarella"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+        <sauce type="mayonaise"/>
+        <name>Mega Chicken Burger</name>
+    </burger>
+    <burger>
+        <patty type="fish"/>
+        <cheese type="marble"/>
+        <topping type="pickle"/>
+        <topping type="lettuce"/>
+        <sauce type="mayonaise"/>
+        <name>Extreme Fish Burger</name>
+    </burger>
+</order>
