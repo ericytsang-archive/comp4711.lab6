@@ -3,16 +3,7 @@
 
 
 <!--
-    ROOT element
--->
-<!ELEMENT __ROOT__ (ANY)>
-<!-- version attribute for the root element -->
-<!ATTLIST __ROOT__ version (CDATA) #REQUIRED>
-
-
-
-<!--
-    ORDER:
+    ORDER; the root element, which describes a single order:
         - each order will have a designated customer name
         - an order is for one or more burgers
         - an order might have special instructions, eg for delivery
