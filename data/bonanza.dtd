@@ -32,7 +32,7 @@
         - a customer might have special instructions for a burger
         - a burger may be named by the customer
 -->
-<!ELEMENT burger (cheese?,patty,cheese?,topping*,sauce*,note?,name?)>
+<!ELEMENT burger (name?,note?,cheese?,patty,cheese?,topping*,sauce*)>
 <!-- patty for a burger -->
 <!ELEMENT patty EMPTY>
 <!ATTLIST patty
@@ -51,7 +51,7 @@
 <!-- sauce for a burger -->
 <!ELEMENT sauce EMPTY>
 <!ATTLIST sauce
-    type (ketchup|mustard|relish|mayonaise) #REQUIRED
+    type (ketchup|mustard|relish|mayonaise|peanutbutter) #REQUIRED
     >
 <!ELEMENT name (#PCDATA)>
 

@@ -6,6 +6,7 @@
     <customer>Misaka Mikoto</customer>
     <note>onehundredpercenttsundere</note>
     <burger>
+        <name>Super Beef Burger</name>
         <cheese type="cheddar"/>
         <patty type="beef"/>
         <cheese type="cheddar"/>
@@ -14,31 +15,30 @@
         <topping type="tomato"/>
         <sauce type="ketchup"/>
         <sauce type="mustard"/>
-        <name>Super Beef Burger</name>
     </burger>
     <burger>
+        <name>Fantastic Pork Burger</name>
         <patty type="pork"/>
         <cheese type="cheddar"/>
         <topping type="lettuce"/>
         <topping type="tomato"/>
         <sauce type="ketchup"/>
         <sauce type="mustard"/>
-        <name>Fantastic Pork Burger</name>
     </burger>
     <burger>
+        <name>Mega Chicken Burger</name>
         <patty type="chicken"/>
         <cheese type="mozzarella"/>
         <topping type="lettuce"/>
         <topping type="tomato"/>
         <sauce type="mayonaise"/>
-        <name>Mega Chicken Burger</name>
     </burger>
     <burger>
+        <name>Extreme Fish Burger</name>
         <patty type="fish"/>
         <cheese type="marble"/>
         <topping type="pickle"/>
         <topping type="lettuce"/>
         <sauce type="mayonaise"/>
-        <name>Extreme Fish Burger</name>
     </burger>
 </order>
