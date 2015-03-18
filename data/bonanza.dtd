@@ -10,9 +10,9 @@
         - each order must have a numeric id
         - an order can be for eat-in or for takeout
 -->
-<!ELEMENT order (customer,burger+,note?)>
+<!ELEMENT order (customer,note?,burger+)>
 <!ATTLIST order
-    id (CDATA) #REQUIRED
+    id CDATA #REQUIRED
     type (eatin|takeout|delivery) #REQUIRED
     >
 
@@ -30,6 +30,7 @@
         - a burger may have any number of toppings
         - a burger may have any number of sauces
         - a customer might have special instructions for a burger
+        - a burger may be named by the customer
 -->
 <!ELEMENT burger (cheese?,patty,cheese?,topping*,sauce*,note?,name?)>
 <!-- patty for a burger -->
