@@ -2,5 +2,17 @@
 
 <!DOCTYPE order SYSTEM 'bonanza.dtd'>
 
-<order id='8'>
+<order id='8' type='eatin'>
+    <customer>Eric Tsang</customer>
+    <note>Nothing important...</note>
+    <burger>
+        <patty type="chicken"/>
+        <cheese type="mozzarella"/>
+        <topping type="pickle"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+        <sauce type="mayonaise"/>
+        <note>also, nothing important...</note>
+        <name>Chicken Burger</name>
+    </burger>
 </order>
